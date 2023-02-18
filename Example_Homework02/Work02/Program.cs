@@ -2,10 +2,9 @@
 //что третьей цифры нет.
 // 645 -> 5
 // 78 -> третьей цифры нет
-// 32679 -> 6
+// 32679 -> 6 
 
 int value = Convert.ToInt32(Console.ReadLine());
-
 if (value >= 9999)
 {
     int c = (value % 1000);

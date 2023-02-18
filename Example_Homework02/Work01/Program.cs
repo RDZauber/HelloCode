@@ -5,6 +5,7 @@
 // 918 -> 1
 
 int value = 456;
+
 int b = (value / 10) % 10;
 
 Console.WriteLine(" Вторая цифра числа ");
